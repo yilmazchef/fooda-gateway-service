@@ -15,7 +15,6 @@
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-parent</artifactId>
         <version>HOXTON.SR9</version>
-        <relativePath/>
     </parent>
 
     <properties>
