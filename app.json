@@ -1,0 +1,6 @@
+{
+  "name": "Eureka Gateway Service",
+  "description": "Eureka Gateway server demo project.",
+  "website": "https://github.com/yilmazchef/fooda-gateway-service",
+  "success_url": "/"
+}
