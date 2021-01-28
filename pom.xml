@@ -14,7 +14,8 @@
     <parent>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-starter-parent</artifactId>
-        <version>HOXTON.SR9</version>
+        <version>Hoxton.SR9</version>
+        <relativePath/>
     </parent>
 
     <properties>
@@ -39,22 +40,11 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!--HYSTRIX-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
-        </dependency>
-
-        <!--HYSTRIX DASHBOARD-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
-        </dependency>
-
         <!--EUREKA CLIENT-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>2.2.0.RELEASE</version>
         </dependency>
 
         <!-- exclude junit 4 -->
@@ -80,6 +70,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+            <version>2.2.0.RELEASE</version>
         </dependency>
 
         <dependency>
